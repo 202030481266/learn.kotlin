@@ -1,11 +1,5 @@
-const val question = "life, the universe, and everything"
-const val answer = 42
+import kotlin.math.min
+
 
 fun main() {
-
-    val tripleQuotedString = """
-    #question = "$question"
-    #answer = $answer""".trimMargin("#")
-
-    println(tripleQuotedString)
 }
