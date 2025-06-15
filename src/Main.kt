@@ -1,9 +1,11 @@
+const val question = "life, the universe, and everything"
+const val answer = 42
 
 fun main() {
-    var s = """
-        |I am your father.
-        |I am your god.
-        |I am your hope.
-    """.trimMargin()
-    println(s)
+
+    val tripleQuotedString = """
+    #question = "$question"
+    #answer = $answer""".trimMargin("#")
+
+    println(tripleQuotedString)
 }
