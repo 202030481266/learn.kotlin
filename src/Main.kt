@@ -1,8 +1,9 @@
 
 fun main() {
-    val name = "Kotlin"
-    println("Hello, $name!")
-    for (i in 1..5) {
-        println("i = $i")
-    }
+    var s = """
+        |I am your father.
+        |I am your god.
+        |I am your hope.
+    """.trimMargin()
+    println(s)
 }
