@@ -2,6 +2,9 @@
   <dictionary name="project">
     <words>
       <w>funcs</w>
+      <w>lowbit</w>
+      <w>maxn</w>
+      <w>sortv</w>
     </words>
   </dictionary>
 </component>
